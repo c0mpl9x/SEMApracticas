@@ -1,0 +1,296 @@
+# Resultados de verificación SPIN
+
+==================================================
+Propiedad: p1
+Comando: ./pan -a -f -N p1
+pan: ltl formula p1
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 437, errors: 0
+     2677 states, stored
+     6316 states, matched
+     8993 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.184	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.320	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.827	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.02 seconds
+pan: rate    133850 states/second
+
+==================================================
+Propiedad: p2
+Comando: ./pan -a -f -N p2
+pan: ltl formula p2
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p2)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 437, errors: 0
+     2677 states, stored
+     6316 states, matched
+     8993 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.184	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.320	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.827	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p2
+	_spin_nvr.tmp:17, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+==================================================
+Propiedad: p3
+Comando: ./pan -a -f -N p3
+pan: ltl formula p3
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p3)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 437, errors: 0
+     2677 states, stored
+     6316 states, matched
+     8993 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.184	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.320	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.827	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p3
+	_spin_nvr.tmp:26, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds
+
+==================================================
+Propiedad: p4
+Comando: ./pan -a -f -N p4
+pan: ltl formula p4
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p4)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 437, errors: 0
+     6100 states, stored (15387 visited)
+    57833 states, matched
+    73220 transitions (= visited+matched)
+        0 atomic steps
+hash conflicts:         6 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.419	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.516	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  129.022	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p4
+	_spin_nvr.tmp:50, state 33, "-end-"
+	(1 of 33 states)
+
+pan: elapsed time 0.04 seconds
+pan: rate    384675 states/second
+
+==================================================
+Propiedad: p5
+Comando: ./pan -a -f -N p5
+pan: ltl formula p5
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p5)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 917, errors: 0
+    13427 states, stored (37075 visited)
+   338799 states, matched
+   375874 transitions (= visited+matched)
+        0 atomic steps
+hash conflicts:        37 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.922	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.906	actual memory usage for states (compression: 98.32%)
+         	state-vector as stored = 43 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  129.413	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p5
+	_spin_nvr.tmp:174, state 203, "-end-"
+	(1 of 203 states)
+
+pan: elapsed time 0.21 seconds
+pan: rate 176547.62 states/second
+
+==================================================
+Propiedad: p6
+Comando: ./pan -a -f -N p6
+pan: ltl formula p6
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p6)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 437, errors: 0
+     4336 states, stored (8199 visited)
+    29790 states, matched
+    37989 transitions (= visited+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.298	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.418	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.925	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p6
+	_spin_nvr.tmp:198, state 33, "-end-"
+	(1 of 33 states)
+
+pan: elapsed time 0.02 seconds
+pan: rate    409950 states/second
+
+==================================================
+Propiedad: p7
+Comando: ./pan -a -f -N p7
+pan: ltl formula p7
+
+(Spin Version 6.5.2 -- 6 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (p7)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness enabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 917, errors: 0
+    16927 states, stored (48465 visited)
+   470711 states, matched
+   519176 transitions (= visited+matched)
+        0 atomic steps
+hash conflicts:       116 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.162	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.102	actual memory usage for states (compression: 94.80%)
+         	state-vector as stored = 40 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  129.608	total actual memory usage
+
+
+unreached in proctype fsm
+	model.pml:111, state 57, "-end-"
+	(1 of 57 states)
+unreached in proctype entorno
+	model.pml:127, state 18, "-end-"
+	(1 of 18 states)
+unreached in claim p7
+	_spin_nvr.tmp:322, state 203, "-end-"
+	(1 of 203 states)
+
+pan: elapsed time 0.3 seconds
+pan: rate    161550 states/second
+
