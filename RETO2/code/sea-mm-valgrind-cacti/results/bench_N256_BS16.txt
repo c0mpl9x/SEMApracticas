@@ -1,0 +1,4 @@
+matrix size (256 x 256), blocksize (16, 16)
+mm_basic (n, aa, b, c) -> 0.045426
+mm_opt (n, a, b, c, bs) -> 0.011216
+check OK

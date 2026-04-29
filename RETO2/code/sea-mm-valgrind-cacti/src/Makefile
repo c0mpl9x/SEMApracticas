@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -O2 -g -Wall -Wextra -std=c99
+CFLAGS := -O2 -g -Wall -Wextra -std=c99 -D_POSIX_C_SOURCE=199309L
 LDFLAGS := -lrt
 
 TARGET := mm
@@ -40,7 +40,8 @@ callgrind: $(TARGET)
 		--callgrind-out-file=$(RESULTS)/callgrind_N$(N)_BS$(BS).out \
 		./$(TARGET) $(N) $(BS)
 
-annotate:
+annotate: $(TARGET)
+	mkdir -p $(RESULTS)
 	callgrind_annotate --auto=yes $(RESULTS)/callgrind_N$(N)_BS$(BS).out mm.c \
 		> $(RESULTS)/annotate_N$(N)_BS$(BS).txt
 

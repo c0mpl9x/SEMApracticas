@@ -48,6 +48,18 @@ void mm_basic (int n, double* a, double* b, double* c)
 
 void mm_opt (int n, double* a, double* b, double* c, int bs)
 {
+   int ii, jj, kk, i, j, k;
+
+   for (ii = 0; ii < n; ii += bs)
+      for (kk = 0; kk < n; kk += bs)
+         for (jj = 0; jj < n; jj += bs)
+            for (i = ii; i < ii + bs; i++)
+               for (k = kk; k < kk + bs; k++) {
+                  double b_ik = b[i * n + k];
+
+                  for (j = jj; j < jj + bs; j++)
+                     a[i * n + j] += b_ik * c[k * n + j];
+               }
 }
 
 void checkmm (int n, double* a, double* aa)
